@@ -1,7 +1,7 @@
 function takeANumber(line,person) {
   line.push(person);
   var place = 0;
-  return `Welcome ${person}. You are number ${place++} in line.
+  return `Welcome ${person}. You are number ${place++} in line.`
 }
   
 
