@@ -1,1 +1,1 @@
-function takeANumber(line,person)
+function takeANumber(katzDeliLine,person)
