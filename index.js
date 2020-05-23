@@ -1,7 +1,7 @@
 function takeANumber(katzDeliLine,person) {
   line.push(person);
   var place = 0;
-  return ''
+  return `Welcome ${person}, 
 }
   
 
