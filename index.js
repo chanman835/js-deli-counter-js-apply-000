@@ -30,9 +30,10 @@ function currentLine() {
     let lineString = 'The line is currently : ';
     for (let i = 0; i < katzDeliLine.length; i++) {
       let person = katzDeliLine[i];
-      lineString += `${i + 1}. ${person}
+      lineString += `${i + 1}. ${person},`;
     }
   }
+  return lineString
   
 }
 
