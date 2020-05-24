@@ -21,8 +21,9 @@ function nowServing(katzDeliLine) {
 }
 
 /* base case -if deli line is empty array, return the string
-define new array = now serving person
-push person at index 0 to new array then shift this person */
+assign a new array to describe the person currently being served
+push person at index 0 to new array then shift this person out of katz deli line 
+return currently served person */
 
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0) return 'The line is currently empty.'
@@ -39,6 +40,8 @@ function currentLine(katzDeliLine) {
 
 /* base case - if line is empty return string
 assign variable with string 'The line is currently'
-iterate through the line, and concatenate (urrentIndex + 1) and name of current person
-return string variable */
+iterate through the line array, and concatenate (currentIndex + 1) and name of current person
+return string variable 
+
+ran into trouble with commas, concatenated first elements without comma, and then initiated for loop */
 
