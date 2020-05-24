@@ -25,11 +25,12 @@ define new array = now serving person
 push person at index 0 to new array then shift this person */
 
 function currentLine() {
-  if (katzDeliLine)
+  if (katzDeliLine.length === 0) return 'The'
   
 }
 
 /* base case - if line is empty return string
 assign variable with string 'The line is currently'
-iterate through the line, and concat (index + 1) and name of person
+iterate through the line, and concat (index + 1) and name of current person
+return string variable */
 
