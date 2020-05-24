@@ -11,10 +11,8 @@ return string with person's name and index of person, + 1
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine === []); return 'There is nobody waiting to be served!';
-  else {
-    let person = katzDeliLine[0];
-    return katzDeliLine.push(person).shift(person)
-  }
+  let person = katzDeliLine[0];
+  return katzDeliLine.push(person).shift(person)
 }
 
 /* base case -if deli line is empty array, return the string
