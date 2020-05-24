@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine === []) return 'There is nobody waiting to be served!'
   else { 
     let person = katzDeliLine[0];
-    return katzDeliLine.push(person).shift(person);
+    return katzDeliLine.push(person).shift();
   }
 }
 
