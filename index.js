@@ -10,7 +10,7 @@ return string with person's name and index of person, + 1
 */ 
 
 function nowServing(katzDeliLine) {
-  if (!katzDeliLine) return 'There is nobody waiting to be served!'
+  if (katzDeliLine === []) return 'There is nobody waiting to be served!'
   else {
     let person = katzDeliLine[0];
     return katzDeliLine.pop(person)
