@@ -9,7 +9,7 @@ push person name into katzDeliLine
 return string with person's name and index of person, + 1
 */ 
 
-function nowServing() {
+function nowServing(katzDeliLine) {
   
 }
 
