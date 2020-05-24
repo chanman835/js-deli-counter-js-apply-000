@@ -3,7 +3,7 @@ function takeANumber(katzDeliLine,person) {
   var place = 0;
   console.log(katzDeliLine);
   
-  return `Welcome, ${person}. You are number ${place++} in line.`
+  return `Welcome, ${person}. You are number ${place+= 1} in line.`
 }
   
 
