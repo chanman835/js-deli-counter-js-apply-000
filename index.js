@@ -9,10 +9,10 @@ push person name into katzDeliLine
 return string with person's name and index of person, + 1
 */ 
 
-function nowServing(katzDeliLine) {
-  if (deliLine === []) return 'There is nobody waiting to be served!'
+function nowServing() {
+  if (katzDeliLine === []) return 'There is nobody waiting to be served!'
   else {
-    let person = deliLine[0];
+    let person = katzDeliLine[0];
     katzDeliLine.pop(person)
   }
 }
