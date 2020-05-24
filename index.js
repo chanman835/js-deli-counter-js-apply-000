@@ -1,9 +1,10 @@
 function takeANumber(katzDeliLine,person) {
   katzDeliLine.push(person);
   var place = 0;
+  place++
   console.log(katzDeliLine);
   
-  return `Welcome, ${person}. You are number ${place+= 1} in line.`
+  return `Welcome, ${person}. You are number ${place} in line.`
 }
   
 
