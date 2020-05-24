@@ -29,4 +29,6 @@ function currentLine() {
   
 }
 
+/* base case - if line is empty return string
+assign variable with string ''
 
