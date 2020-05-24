@@ -10,6 +10,7 @@ return string with person's name and index of person, + 1
 */ 
 
 function nowServing(katzDeliLine) {
+  if (!katzDeliLine) return ''
   
 }
 
