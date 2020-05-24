@@ -15,6 +15,7 @@ function nowServing(katzDeliLine) {
     let person = katzDeliLine[0];
     katzDeliLine.pop(person)
     console.log(katzDeliLine)
+    return katzDeliLine.pop(person)
   }
 }
 
