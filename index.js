@@ -24,7 +24,7 @@ function nowServing(katzDeliLine) {
 define new array = now serving person
 push person at index 0 to new array then shift this person */
 
-function currentLine() {
+function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0) return 'The line is currently empty.'
   else {
     let lineString = 'The line is currently : ';
