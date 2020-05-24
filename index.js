@@ -1,5 +1,5 @@
 function takeANumber(katzDeliLine,person) {
-  katzDeliLine.push(person);
+  //katzDeliLine.push(person);
   let place = 0;
   return `Welcome, ${person}. You are number ${katzDeliLine.indexOf(person) + 1} in line.`
 }
@@ -39,6 +39,6 @@ function currentLine(katzDeliLine) {
 
 /* base case - if line is empty return string
 assign variable with string 'The line is currently'
-iterate through the line, and concat (index + 1) and name of current person
+iterate through the line, and concatenate (urrentIndex + 1) and name of current person
 return string variable */
 
