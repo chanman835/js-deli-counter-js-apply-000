@@ -13,10 +13,10 @@ function nowServing(katzDeliLine) {
   if (!katzDeliLine) return 'There is nobody waiting to be served!'
   else {
     let person = katzDeliLine[0];
-    return katzDeliLine.push(person).pop(person)
+    return katzDeliLine.pop(person)
     console.log(katzDeliLine)
   }
 }
 
 /* base case -if deli line is empty array, return the string
-return 
+pop the element at index 0 of deli line */
