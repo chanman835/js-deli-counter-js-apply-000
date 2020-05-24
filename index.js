@@ -23,4 +23,4 @@ function nowServing(katzDeliLine) {
 
 /* base case -if deli line is empty array, return the string
 define new array = now serving person
-push person at index 0 to new array then shift this personthe element at index 0 of deli line */
+push person at index 0 to new array then shift this personlinethe element at index 0 of deli  */
