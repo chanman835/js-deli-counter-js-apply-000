@@ -27,7 +27,11 @@ push person at index 0 to new array then shift this person */
 function currentLine() {
   if (katzDeliLine.length === 0) return 'The line is currently empty.'
   else {
-    let lineString = 
+    let lineString = 'The line is currently : ';
+    for (let i = 0; i < katzDeliLine.length; i++) {
+      let person = katzDeliLine[i];
+      lineString += `${i + 1}. ${person}
+    }
   }
   
 }
