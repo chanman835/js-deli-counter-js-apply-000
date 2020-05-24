@@ -24,4 +24,8 @@ function nowServing(katzDeliLine) {
 define new array = now serving person
 push person at index 0 to new array then shift this person */
 
+function currentLine() {
+  
+}
+
 
