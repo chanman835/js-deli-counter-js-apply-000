@@ -1,17 +1,15 @@
 function takeANumber(katzDeliLine,person) {
   katzDeliLine.push(person);
-  var place = 0;
-  console.log(katzDeliLine);
-  
+  let place = 0;
   return `Welcome, ${person}. You are number ${katzDeliLine.indexOf(person) + 1} in line.`
 }
   
-
-
-/* iterate through each person 
+/*
 push person name into katzDeliLine
-assign place in line of person, originally 0
-return string with person's name and incremented place in line 
+return string with person's name and index of person, + 1
 */ 
 
+function nowServing() {
+  
+}
 
